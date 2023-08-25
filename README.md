@@ -1,0 +1,1 @@
+# chhotastock_kartik_kunwar
