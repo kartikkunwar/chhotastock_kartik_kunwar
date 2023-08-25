@@ -3,15 +3,15 @@
 export const Contact = () => {
     return (
         <div className="contact">
-            <h2>How would you like to work with us?</h2>
-            <p>Tell us more about yourself, and we will reach out to you as soon as possible.</p>
+            <h1>How would you like to work with us?</h1>
+            <p style={{fontSize:"25px", width:"40%"}}>Tell us more about yourself, and we will reach out to you as soon as possible.</p>
             <div className="insidecontact">
                 <div>
-                    <p>Work email</p>
-                    <input type="email" placeholder="abc@xyz.com" />
-                    <p>Company Name</p>
+                    <p style={{fontSize:"25px"}}>Work email</p>
+                    <input type="email" placeholder="abc@xyz.com"/>
+                    <p style={{fontSize:"25px"}}>Company Name</p>
                     <input type="text" />
-                    <p>Mobile Number</p>
+                    <p style={{fontSize:"25px"}}>Mobile Number</p>
                     <input type="number" />
                 </div>
                 <div>

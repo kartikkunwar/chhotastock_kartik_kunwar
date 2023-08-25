@@ -3,9 +3,10 @@ import { useState } from "react"
 
 export const Navbar = () => {
     const [open, setOpen] = useState(false)
-    var count = 0;
+    let count = 0;
     const modal = () => {
         count++;
+        console.log(count)
         if (count % 2 !== 0) {
             setOpen(true)
         } else {
@@ -17,9 +18,10 @@ export const Navbar = () => {
             <div className="logo">
                 <img src="https://www.cakedayphotoframes.com/public/storage/posts/1673286575-18.jpg" alt="images" />
                 <p style={{ fontSize: "30px", marginLeft: "20px" }}>InvestPe</p>
+                <button style={{marginLeft: "20px" }}>Gateway</button>
             </div>
             <div className="modal">
-                <p style={{ fontSize: "30px", cursor:"pointer" }} onClick={modal}>Products <span>&#8595;</span></p>
+                <p style={{ fontSize: "30px", cursor:"pointer" }} onClick={()=>modal()}>Products <span>&#8595;</span></p>
                 <p style={{ fontSize: "30px" }}>AboutUs</p>
                 {
                     open&&
