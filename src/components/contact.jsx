@@ -7,31 +7,31 @@ export const Contact = () => {
             <p style={{fontSize:"25px", width:"40%"}}>Tell us more about yourself, and we will reach out to you as soon as possible.</p>
             <div className="insidecontact">
                 <div>
-                    <p style={{fontSize:"25px"}}>Work email</p>
+                    <p style={{fontSize:"20px", marginBottom:"0px"}}>Work email</p>
                     <input type="email" placeholder="abc@xyz.com" className="mail"/>
-                    <p style={{fontSize:"25px"}}>Company Name</p>
+                    <p style={{fontSize:"20px", marginBottom:"0px"}}>Company Name</p>
                     <input type="text"  className="mail"/>
-                    <p style={{fontSize:"25px"}}>Mobile Number</p>
+                    <p style={{fontSize:"20px", marginBottom:"0px"}}>Mobile Number</p>
                     <input type="number"  className="mail"/>
                 </div>
                 <div>
-                    <p>Which products are you interested in?</p>
+                    <p style={{fontSize:"18px"}}>Which products are you interested in?</p>
                     <div className="contacttwo">
                         <div>
-                            <h4>Mutual Funds</h4>
-                            <p>Stock gateway & stock baskets</p>
+                            <p style={{fontSize:"20px"}}>Mutual Funds</p>
+                            <p style={{color:"gray"}}>Stock gateway & stock baskets</p>
                         </div>
                         <div>
-                            <h4>Mutual Funds</h4>
-                            <p>Stock gateway & stock baskets</p>
+                            <p style={{fontSize:"20px"}}>Mutual Funds</p>
+                            <p style={{color:"gray"}}>Stock gateway & stock baskets</p>
                         </div>
                         <div>
-                            <h4>Mutual Funds</h4>
-                            <p>Stock gateway & stock baskets</p>
+                            <p style={{fontSize:"20px"}}>Mutual Funds</p>
+                            <p style={{color:"gray"}}>Stock gateway & stock baskets</p>
                         </div>
                         <div>
-                            <h4>Mutual Funds</h4>
-                            <p>Stock gateway & stock baskets</p>
+                            <p style={{fontSize:"20px"}}>Mutual Funds</p>
+                            <p style={{color:"gray"}}>Stock gateway & stock baskets</p>
                         </div>
                     </div>
                 </div>

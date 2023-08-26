@@ -5,7 +5,7 @@ export const Connection = () => {
         <div className="connection">
             <div>
                 <h1>Connect your platform finances now with InvestPe Gateway</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ipsa, vel consequatur nostrum voluptas ab nesciunt aspernatur alias magnam officiis, delectus labore ipsum! Nostrum, nesciunt eveniet inventore maxime modi fugiat.</p>
+                <p style={{fontSize:"20px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ipsa, vel consequatur nostrum voluptas ab nesciunt aspernatur alias magnam officiis</p>
                 <button>Try InvestPe Now</button>
             </div>
             <div>

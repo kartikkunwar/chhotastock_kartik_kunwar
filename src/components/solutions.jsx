@@ -3,8 +3,8 @@
 export const Solutions = () => {
     return (
         <div className="solutions">
-            <p style={{color:"green"}}>SOLUTION</p>
-            <h2 className="solheading">Stay ahead with our Wealth-tech as a service</h2>
+            <p style={{color:"green", fontSize:"25px"}}>SOLUTION</p>
+            <h1 className="solheading">Stay ahead with our Wealth-tech as a service</h1>
             <div className="main">
                 <div>
                     <div className="insidetop">

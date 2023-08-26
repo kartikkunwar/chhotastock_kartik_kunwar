@@ -3,7 +3,7 @@
 export const Investing = () => {
     return (
         <div className="investing">
-            <h1 style={{width:"20%", margin:"auto", marginTop:"50px"}}>Knowledge Based Investing & Trading</h1>
+            <h1 style={{width:"30%", margin:"auto", marginTop:"50px", fontSize:'40px'}}>Knowledge Based Investing & Trading</h1>
             <p className="reference">Ready-made solutions + Deep Research + Disiplined Investing + Advanced Trading Tools</p>
             <div className="semicircle">
                 <div className="ten"></div>

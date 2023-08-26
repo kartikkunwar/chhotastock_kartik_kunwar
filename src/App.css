@@ -12,8 +12,13 @@
   background-color: black;
   color: white;
   align-items: center;
- 
   position: relative;
+}
+.lognav{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo{
   width: 10%;
@@ -202,7 +207,7 @@ button{
   margin-top: 100px;
 }
 .solheading{
-  width: 25%;
+  width: 35%;
 }
 .main{
   width: 100%;
@@ -332,8 +337,8 @@ hr{
   margin-top: 50px;
 }
 .mail{
-  padding: 15px;
-  width: 40%;
+  padding: 20px;
+  width: 60%;
   border-radius: 10px;
   border-style: none;
 }
@@ -471,6 +476,57 @@ hr{
   display: flex;
   justify-content: space-evenly;
 }
+.review{
+  width: 80%;
+  margin: auto;
+}
+.revfirst{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.revfirst>div:nth-child(1){
+  width: 30%;
+}
+.revfirst>div:nth-child(2){
+  text-align: center;
+  width: 22%;
+  border-radius: 30px;
+  background-color: #F3F3F3;
+}
+.revfirst>div:nth-child(3){
+  width: 22%;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #F3F3F3;
+}
+.revsecond{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.singlecard,.invert{
+  background-color: #F3F3F3;
+  width: 18%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.singlecard>img{
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}
+.invert>img{
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-bottom: -50px;
+}
+
 
 
 

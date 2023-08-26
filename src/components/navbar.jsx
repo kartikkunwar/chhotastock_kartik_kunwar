@@ -21,7 +21,7 @@ export const Navbar = () => {
                 <button style={{marginLeft: "20px" }}>Gateway</button>
             </div>
             <div className="modal">
-                <p style={{ fontSize: "30px", cursor:"pointer" }} onClick={()=>modal()}>Products <span>&#8595;</span></p>
+                <p style={{ fontSize: "30px", cursor:"pointer" }} onClick={()=>modal()}>Products <span style={{color:"white"}}>&#8595;</span></p>
                 <p style={{ fontSize: "30px" }}>AboutUs</p>
                 {
                     open&&

@@ -5,6 +5,7 @@ import { Partners } from '../components/partners'
 import {Footer} from "../components/footer"
 import { Simplified } from '../components/simplified'
 import { LoginNavbar } from '../components/loginnav'
+import { Review } from '../components/review'
 
 
 export const Product=()=>{
@@ -16,6 +17,7 @@ export const Product=()=>{
             <Connection/>
             <Simplified/>
             <Partners/>
+            <Review/>
             <Footer/>
         </div>
     )
