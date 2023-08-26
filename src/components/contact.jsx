@@ -8,11 +8,11 @@ export const Contact = () => {
             <div className="insidecontact">
                 <div>
                     <p style={{fontSize:"25px"}}>Work email</p>
-                    <input type="email" placeholder="abc@xyz.com"/>
+                    <input type="email" placeholder="abc@xyz.com" className="mail"/>
                     <p style={{fontSize:"25px"}}>Company Name</p>
-                    <input type="text" />
+                    <input type="text"  className="mail"/>
                     <p style={{fontSize:"25px"}}>Mobile Number</p>
-                    <input type="number" />
+                    <input type="number"  className="mail"/>
                 </div>
                 <div>
                     <p>Which products are you interested in?</p>
