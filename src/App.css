@@ -262,11 +262,11 @@ button{
   padding: 30px 10px 30px 10px;
   border-radius: 20px;
 }
-ul {
+.sollist {
   list-style: none;
 }
 
-ul li:before {
+.sollist li:before {
   content: '✓';
 }
 .main>div:nth-child(2)>img{
@@ -353,13 +353,13 @@ hr{
   padding: 10px;
   border-radius: 20px;
 }
-.footer{
+/* .footer{
   margin-top: 150px;
   width: 100%;
 }
 .footer>img{
   width: 100%;
-}
+} */
 .textblue{
   color: #7C59CF;
 }
@@ -525,6 +525,48 @@ hr{
   width: 100px;
   height: 100px;
   margin-bottom: -50px;
+}
+.footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 150px;
+  padding: 50px 0 50px 0;
+}
+.listitem{
+  list-style: none;
+}
+.listitem:before{
+  content:attr(aria-label);
+  font-size:120%;
+  font-weight:bold;
+}
+.list{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.google{
+  font-size:120%;
+  font-weight:bold;
+}
+.google+img{
+  height: 50px;
+  width: 200px;
+}
+.socialicon{
+  width: 20%;
+  margin-left: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.socialicon>div{
+  width: 20%;
+}
+.socialicon>div>img{
+  width: 100%;
 }
 
 

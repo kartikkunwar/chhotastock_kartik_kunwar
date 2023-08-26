@@ -26,7 +26,7 @@ export const Solutions = () => {
                         <div>
                             <p className="textblue">MUTUAL FUNDS</p>
                             <h3 className="textblue">Get the complete MF Infra & focus on customer engagement</h3>
-                            <ul>
+                            <ul className="sollist">
                                 <li>SEBI compliant KYC process</li>
                                 <li>Multi-AMC epanelments</li>
                                 <li>Transact & Track orders</li>
@@ -36,7 +36,7 @@ export const Solutions = () => {
                         <div>
                         <p className="textblue">MUTUAL FUNDS</p>
                             <h3 className="textblue">Get the complete MF Infra & focus on customer engagement</h3>
-                            <ul>
+                            <ul className="sollist">
                                 <li>SEBI compliant KYC process</li>
                                 <li>Multi-AMC epanelments</li>
                                 <li>Transact & Track orders</li>

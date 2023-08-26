@@ -28,10 +28,10 @@ export const Features = () => {
                         <img src="https://www.cakedayphotoframes.com/public/storage/posts/1673286575-18.jpg" alt="images" />
                         <p className="fstext">Data Protection guarantees</p>
                     </div>
-                    <div>
-                        <p className="fstext">Protection</p>
+                    <div style={{backgroundColor:'black'}}>
+                        <p className="fstext" style={{color:'white'}}>Protection</p>
                         <img src="https://www.cakedayphotoframes.com/public/storage/posts/1673286575-18.jpg" alt="images" />
-                        <p className="fstext">Data Protection guarantees</p>
+                        <p className="fstext" style={{color:'white'}}>Data Protection guarantees</p>
                     </div>
                     <div>
                         <p className="fstext">Protection</p>
