@@ -9,7 +9,7 @@
   height: 100px;
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: #171E27;
   color: white;
   align-items: center;
   position: relative;
@@ -262,8 +262,12 @@ button{
   padding: 30px 10px 30px 10px;
   border-radius: 20px;
 }
+.insidebottom>div>p,h3{
+  margin-left: 10%;
+}
 .sollist {
   list-style: none;
+  font-size: 20px;
 }
 
 .sollist li:before {
@@ -365,10 +369,10 @@ hr{
 }
 .investing{
   width: 100%;
-  background-color: black;
+  background-color: #171E27;
   color: white;
-  border: 1px solid black;
   text-align: center;
+  padding-top: 3px;
 }
 .reference{
   position: relative;
@@ -418,11 +422,9 @@ hr{
 }
 .mobile>div:nth-child(1){
   width: 20%;
-  border: 1px solid black;
 }
 .mobile>div:nth-child(2){
   width: 40%;
-  border: 1px solid black;
 }
 .mobile>div:nth-child(2)>img{
   width: 100%;
@@ -430,7 +432,9 @@ hr{
 }
 .mobile>div:nth-child(3){
   width: 20%;
-  border: 1px solid black;
+}
+.mobile p{
+  color: gray;
 }
 .simplified{
   width: 90%;
@@ -448,6 +452,7 @@ hr{
 }
 .small{
   margin-top: -20px;
+  color: gray;
 }
 .infocards{
   display: flex;
@@ -528,7 +533,7 @@ hr{
 }
 .footer{
   width: 100%;
-  background-color: black;
+  background-color: #171E27;
   color: white;
   margin-top: 150px;
   padding: 50px 0 50px 0;
@@ -540,13 +545,15 @@ hr{
   content:attr(aria-label);
   font-size:120%;
   font-weight:bold;
+  color: white;
 }
 .list{
-  width: 90%;
-  margin: auto;
+  width: 73%;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  margin-left: 70px;
+  color: gray;
 }
 .google{
   font-size:120%;
@@ -567,6 +574,12 @@ hr{
 }
 .socialicon>div>img{
   width: 100%;
+}
+.search::placeholder{
+  color: white;
+}
+.search{
+  background-color: gray;
 }
 
 

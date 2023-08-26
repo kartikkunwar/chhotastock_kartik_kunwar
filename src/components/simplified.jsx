@@ -13,7 +13,7 @@ export const Simplified = () => {
                         <h3>Value Deals</h3>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
+                        <p style={{color:"gray"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
                     </div>
                     <div>
                         <div>
@@ -32,7 +32,7 @@ export const Simplified = () => {
                         <h3>Value Deals</h3>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
+                        <p style={{color:"gray"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
                     </div>
                     <div>
                         <div>
@@ -51,7 +51,7 @@ export const Simplified = () => {
                         <h3>Value Deals</h3>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
+                        <p style={{color:"gray"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
                     </div>
                     <div>
                         <div>
@@ -70,7 +70,7 @@ export const Simplified = () => {
                         <h3>Value Deals</h3>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
+                        <p style={{color:"gray"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim sapiente voluptate</p>
                     </div>
                     <div>
                         <div>

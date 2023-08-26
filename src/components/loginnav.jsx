@@ -15,7 +15,7 @@ export const LoginNavbar = () => {
                     <p style={{ fontSize: "30px"}}>InvestPe</p>
                 </div>
                 <div style={{ width: "25%", color: "white", marginLeft: "100px" }}>
-                    <input type="text" placeholder="Search stocks, ETFs, indices" style={{ width: "100%", padding: "10px", borderRadius: "8px" }} />
+                    <input type="text" placeholder="Search stocks, ETFs, indices" style={{ width: "100%", padding: "10px", borderRadius: "8px" }} className="search"/>
                 </div>
                 <div className="modal">
                     <button style={{ padding: "10px 20px 10px 20px", cursor:"pointer" }} onClick={() => move()}>Login</button>

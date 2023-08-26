@@ -14,8 +14,8 @@ export const Solutions = () => {
                         </div>
                         <div className="insidetoptwo">
                             <div>
-                                <h3 className="textblue">We value your precious time.</h3>
-                                <p>No regulatory licences required as we have everything for you to get started</p>
+                                <h3 className="textblue" style={{fontSize:"25px"}}>We value your precious time.</h3>
+                                <p style={{fontSize:"25px"}}>No regulatory licences required as we have everything for you to get started</p>
                             </div>
                             <div>
                                 <img src="https://images.moneycontrol.com/static-mcnews/2022/11/market-data.jpg?impolicy=website&width=1600&height=900" alt="images"/>
